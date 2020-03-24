@@ -1,11 +1,11 @@
 import os
-dir = "./morphology_neutrophil/"
+dir = "./stain_neutrophil/"
 #method which handle all the operation regarding rename the file.
 def rename_files():
     #variable initialization
     i=0
     for file_name in os.listdir(dir):
-        dstination="n-m-" + str(i) + ".jpg"
+        dstination="n-s-" + str(i) + ".jpg"
         print(dstination)
         sourse=dir+ file_name
         print(sourse)
